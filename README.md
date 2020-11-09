@@ -1,5 +1,5 @@
 # Info-Collector-C-Project
-### This is C++ project on collection of information. its a simple GUI application in C++ graphics.
+### This is C project on collection of information. its a simple GUI application in C graphics.
 
 # Loading Page
 ![load](https://user-images.githubusercontent.com/64283478/98512583-878f1880-228c-11eb-9869-e3da5a10f94d.png)
