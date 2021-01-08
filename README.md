@@ -1,5 +1,6 @@
 # Info-Collector-C-Project
-### This is C project on collection of information. its a simple GUI application in C graphics.
+### This is the simple information-gathering application in C, C graphics, and file input/output.
+### It's a simple desktop app where you can do further operations such as insertion, updating, deletion, display All information modifications are saved in the local file in C.
 
 # Loading Page
 ![load](https://user-images.githubusercontent.com/64283478/98512583-878f1880-228c-11eb-9869-e3da5a10f94d.png)
