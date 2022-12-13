@@ -2,7 +2,7 @@
 INFO-COLLECTOR
 Student Management(FEE-ENTRY)
 Minor Project In C Programming
-Date : 31/10/2020 Last Update
+Last Date : 13/12/2022  
 
 */
 
@@ -17,7 +17,7 @@ Date : 31/10/2020 Last Update
 FILE *fp, *fp1; char yes; int choice, i = 0, search = 0; int sort[100]; int temp = 0;
 
 /*PASSWORD MUST BE 7 CHARACTER */
-char s1[10], c, sumit[10] = {'n', 'o', 'v', 'a', '1', '2', '3'}; //Password : nova123 <-----
+char s1[10], c, sumArray[10] = {'n', 'o', 'v', 'a', '1', '2', '3'}; //Password : nova123 <-----
 int k, i, l = 0, j, i1 = 0;
 
 struct student {
@@ -151,7 +151,7 @@ void pass() {
 	} printf("\nPASSWORD:");
 	i = 0; for (j = 0; j < l; j++) {
 		printf("%c", s1[j]);
-		if (s1[j] == sumit[j])  {   i++;  }  else  {   i--;   break;  }
+		if (s1[j] == sumArray[j])  {   i++;  }  else  {   i--;   break;  }
 	}
 	if (i == 7) {  closegraph();  clrscr();  pgl(); } else {  printf("\nPASSWORD ARE WRONG!!");  printf("\nPLEASE!!PRESS'Y': ");  getch();  exit(0); }
 }
