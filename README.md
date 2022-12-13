@@ -5,7 +5,7 @@ It's a simple desktop app where you can do further operations such as
 - Updation
 - Deletion
 - Display all information
-- Saved in local file using file handling.
+- Stored data in local file using file handling.
 
 #### Built with
 - CPP
